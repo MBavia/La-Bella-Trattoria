@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@font-face{
+    font-family: Chopin;
+    src: url(/fonts/ChopinScript.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+body {
+    height: 100vh;
+}
+
+#linha_topo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+header {
+    background-color:#dc143c;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+h2 {
+    justify-content: center;
+    
+}
+
+#topo #logo {
+    width: 180px;
+    height: 180px;
+    
+    margin-right: 5%;
+    
+}
+#topo #logo img {
+    width: 100%;
+}
+#topo #texto_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+#topo h1 {
+    font-size: 100px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+#menu {
+     background-color: #568866;
+    display: flex;
+    justify-content: center;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li {
+    display: inline;
+    
+}
+#menu ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color:white;
+    font-family: Chopin;
+}
+#manu ul li a:hover {
+    background-color: brown;
+}
+#Entradas {
+
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#principais {
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    background-color:white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+#Acompanhamentos {
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    background-color:white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#Pizza {
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    background-color:white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#Sobremesas {
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    background-color:white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+#Bebidas {
+    min-height: 100vh;
+    padding: 320px 5px 5px 5px;
+    background-color:white;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+
+.card {
+    
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 450px;
+    border: 1 px #30503a;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(196, 3, 3);
+    background-color: #30503a;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+
+}
+
+.card figure {
+    width: 290px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.card figure img {
+    height: 100%;
+    overflow-x: hidden;
+    border-radius: 10px;
+    width: 100%;
+    transition: all 0.7s cubic-bezir(0,0, .5,1);
+
+
+}
+.card:hover  {
+    transform: scale(1.1);
+   
+}
+   
+
+
+
+
+
+#rodape {
+    background-color:#dc143c;
+
+    min-height: 200px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content:space-around ;
+  
+    padding: 10px;
+    
+
+}
+#rodape figure {
+    height: 150px; 
+    width: 150px;
+}
+#rodape figure img {
+    width: 100%;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.col-md-4 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
